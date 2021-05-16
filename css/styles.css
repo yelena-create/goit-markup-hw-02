@@ -6,18 +6,27 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
 .container {
   width: 1600px;
 }
+
 ul {
   list-style: none;
 }
+
+li {
+  display: inline;
+  margin-right: 10px;
+}
+
 .logo-text {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
 }
+
 .logo-text-color {
   color: #2196f3;
   font-family: Raleway;
@@ -25,10 +34,14 @@ ul {
   font-weight: bold;
   font-size: 26px;
 }
+
+.link {
+  color: black;
+}
+
 .link:hover,
 .link:focus {
   color: #2196f3;
   font-weight: 500;
 }
-.nav-link {
-}
+/*page Pottfolio*/
