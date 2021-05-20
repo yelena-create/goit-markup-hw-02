@@ -8,8 +8,8 @@
   --background-color: #ffffff;
   --accent-color: #2196f3;
   --accent-colors: #757575;
-  --font-family: Roboto;
-  --accent-font: Raleway;
+  --font-family: Roboto, Sans-serif;
+  --accent-font: Raleway, Sans-serif;
   --font-color: #212121;
 }
 body {
@@ -53,7 +53,42 @@ body {
   color: var(--accent-color);
   font-weight: 500;
 }
-
+.hero {
+  background-color: #2f303a;
+  color: var(--background-color);
+}
+.hero .title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero .button {
+  color: var(--background-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875s;
+  letter-spacing: 0.06em;
+  background: #2196f3;
+  border-radius: 4px;
+}
+.title {
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+}
+.post-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features .text {
+  font-size: 14px;
+  line-height: 1.714;
+}
 .footer {
   background-color: #2f303a;
   color: var(--background-color);
@@ -64,6 +99,7 @@ body {
 .footer address {
   font-style: normal;
 }
+
 /*page Potfolio*/
 .button:hover,
 .button:focus {
