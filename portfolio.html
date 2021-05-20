@@ -4,22 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>WebStudio</title>
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href=".prettierrc.json" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <div class="container">
         <nav>
+          <div>
+            <a href="./index.html" class="logo-text">
+              <span class="logo-text-color">Web</span>
+              <span>Studio</span></a
+            >
+          </div>
           <ul>
-            <li>
-              <div class="logo-text">
-                <a href="./index.html"
-                  ><span class="logo-text-color">Web</span>Studio</a
-                >
-              </div>
-            </li>
             <li>
               <a href="./index.html" class="link">Студия</a>
             </li>
@@ -31,7 +34,7 @@
             </li>
           </ul>
         </nav>
-        <ul>
+        <ul class="contacts">
           <li>
             <a href="mailyo:info@devstudio.com" class="link"
               >info@devstudio.com</a
@@ -49,7 +52,7 @@
         <h1>Портфолио</h1>
         <!-- buttons container -->
         <div>
-          <ul>
+          <ul class="slider-buttons">
             <li>
               <button type="button" class="button">Все</button>
             </li>
@@ -165,30 +168,22 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="container">
-        <div class="footer">
-          <div>
-            <a href="./index.html"
-              ><span class="logo-text-color">Web</span>Studio</a
-            >
-          </div>
-          <ul>
-            <li>
-              <address>г. Киев, пр-т Леси Украинки, 26</address>
-            </li>
-            <li>
-              <a href="mailto:info@example.com" class="link"
-                >info@example.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
-            </li>
-          </ul>
-        </div>
+        <a href="./index.html" class="logo-text">
+          <span class="logo-text-color">Web</span>
+          <span>Studio</span></a
+        >
+        <address>г. Киев, пр-т Леси Украинки, 26</address>
+        <ul>
+          <li>
+            <a href="mailto:info@example.com" class="link">info@example.com</a>
+          </li>
+          <li>
+            <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
-</html>   
-
+</html>
