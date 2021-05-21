@@ -14,7 +14,7 @@
 }
 body {
   background-color: var(--background-color);
-  color: var(--font-color);
+  color: #212121;
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
@@ -44,7 +44,7 @@ body {
   font-weight: 500;
 }
 
-.contacts .link {
+.item .link {
   color: var(--accent-colors);
 }
 
@@ -53,12 +53,13 @@ body {
   color: var(--accent-color);
   font-weight: 500;
 }
-.contacts,
+.slider-buttons,
 .item {
   list-style: none;
+  margin: 0;
 }
-.item li {
-  display: inline;
+.nav-link .link.current {
+  color: var(--accent-color);
 }
 .hero {
   background-color: #2f303a;
